@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items at the start of the flex container */
+    height: 100vh;
+    background: linear-gradient(to right, #145c5d 0%, #6f9ef0 100%);
+}
+
+.container {
+    text-align: center;
+    width: 90%; /* Adjust width as needed */
+    max-width: 600px; /* Maximum width */
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    position: absolute; /* Absolute positioning to move it up */
+    top: 300%; /* Adjust this value to push the container up relative to the center */
+    left: 50%; /* Aligns container horizontally */
+    transform: translate(-50%, -50%); /* Centers the container exactly where you want it */
+}
+
+
+
+h1, p {
+    color: #333;
+}
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+img {
+    width: 120px; /* Adjust size according to your needs */
+    margin-top: 20px;
+    border: 2px solid #ddd; /* Light grey border */
+    border-radius: 4px; /* Rounded border */
+    padding: 5px; /* Some padding */
+}
+a {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+a:hover {
+    background-color: #45a049;
+}
+.banner {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 150px; /* Set height */
+    background: linear-gradient(to right, #6a11cb 0%, #2575fc 100%); /* Smooth color transition from purple to blue */
+    background-size: cover;
+    background-position: center;
+}
+
+.heading1 {
+    font-family: 'Arial', sans-serif; /* Use a web-safe font; you can also use Google Fonts for more options */
+    font-size: 3.5em; /* Larger text for heading */
+    color: #e6dfdf; /* Dark grey for good contrast */
+    text-align: center; /* Center-align the text */
+    margin-top: 40px; /* Adds space above the heading */
+    margin-bottom: 0px; /* Adds space below the heading */
+    text-transform: uppercase; /* Makes all letters uppercase for emphasis */
+    letter-spacing: 1.5px; /* Increases spacing between letters for a more stylish look */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8); /* Adds subtle shadow for depth */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* p styling for content info */
+
+.paragraphstyling {
+    width: 80%; /* Adjust the width as necessary */
+    max-width: 600px; /* Ensures the text isn't too wide on larger screens */
+    margin: 20px auto; /* Centers the div in the middle of the page with top and bottom margin */
+    padding: 20px; /* Adds space inside the div around the text */
+    background-color: #f9f9f9; /* Light background color to offset the text visually */
+    border-left: 5px solid #007BFF; /* Blue accent line on the left */
+    font-family: 'Arial', sans-serif; /* Ensures the text is easy to read */
+    font-size: 16px; /* Adequate font size for readability */
+    line-height: 1.6; /* Increases line height to enhance readability */
+    text-align: left; /* Ensures text is aligned to the left */
+}
