@@ -28,7 +28,7 @@ body {
 @media (max-width: 600px) {
     .container {
         width: 95%; /* Allows more screen usage on smaller devices */
-        top: 260%; /* Maintain vertical centering */
+        top: 300%; /* Maintain vertical centering */
         left: 50%; /* Maintain horizontal centering */
         transform: translate(-50%, -50%); /* Necessary to keep the box centered */
     }
