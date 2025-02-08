@@ -18,7 +18,7 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     position: absolute; /* Absolute positioning to move it up */
-    top: 300%; /* Adjust this value to push the container up relative to the center */
+    top: 400%; /* Adjust this value to push the container up relative to the center */
     left: 50%; /* Aligns container horizontally */
     transform: translate(-50%, -50%); /* Centers the container exactly where you want it */
 }
@@ -47,15 +47,19 @@ img {
     border-radius: 4px; /* Rounded border */
     padding: 5px; /* Some padding */
 }
+
 a {
-    display: inline-block;
-    margin-top: 20px;
-    background-color: #4CAF50; /* Green */
-    color: white;
+    display: block; /* Makes the link a block element to occupy its own line */
+    width: fit-content; /* Ensures the link button size is content-dependent */
     padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
     text-decoration: none;
     border-radius: 5px;
+    text-align: center;
+    margin: 20px auto; /* Centers the link horizontally */
 }
+
 a:hover {
     background-color: #45a049;
 }
@@ -107,3 +111,17 @@ a:hover {
     line-height: 1.6; /* Increases line height to enhance readability */
     text-align: left; /* Ensures text is aligned to the left */
 }
+
+
+
+.flex-container {
+    display: flex; /* Enables Flexbox */
+    justify-content: space-around; /* Distributes space around the items */
+    align-items: flex-start; /* Aligns items at the start of the flex container */
+    padding: 20px;
+}
+
+#centerthisdo {
+    text-align: center;
+}
+
